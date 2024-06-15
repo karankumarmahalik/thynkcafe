@@ -1,0 +1,76 @@
+body{
+    font-family: "Anton", sans-serif;
+    background-color: rgb(36, 36, 124);
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+
+}
+.main{
+    flex: 1;
+}
+.com{
+    font-size: 0.9rem;
+    float: right;
+    background-color: rgb(202, 179, 51);
+}
+.logo{
+    height: 80px;
+    float: right;
+    margin-left: 10px;
+}
+
+.chef{
+    color: azure;
+}
+
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 70px;
+  }
+  
+  .card {
+    width: 45%;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .card-title{
+    color: antiquewhite;
+  }
+  @media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
+
+
+    
+
